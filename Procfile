@@ -1,1 +1,1 @@
-web: gunicorn Rocket_Elevators_Django_API.Rocket_Elevators_Django_API.wsgi
+web: waitress-serve --port=$PORT Rocket_Elevators_Django_API.Rocket_Elevators_Django_API.wsgi:application
