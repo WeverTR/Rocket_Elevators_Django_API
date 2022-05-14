@@ -1,0 +1,4 @@
+#!/home/wevertr/.pyenv/versions/3.9.1/envs/venvcodeboxx/bin/python
+import pydoc
+if __name__ == '__main__':
+      pydoc.cli()
